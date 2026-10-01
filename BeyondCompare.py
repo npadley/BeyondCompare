@@ -32,7 +32,7 @@ def plugin_loaded() -> None:
         if os.path.exists(get_location()):
             pass
         elif os.path.exists("%s\\Beyond Compare 4\\BCompare.exe" % os.environ['ProgramFiles(x86)']):
-            settings().set("beyond_compare_path", '"%s\\Beyond Compare 4\\BCompare.exe"'
+            settings().set("beyond_compare_path", '%s\\Beyond Compare 4\\BCompare.exe'
                            % os.environ['ProgramFiles(x86)'])
             sublime.save_settings("BeyondCompare.sublime-settings")
         elif os.path.exists("%s\\Beyond Compare 4\\BCompare.exe" % os.environ['ProgramFiles']):

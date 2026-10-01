@@ -1,0 +1,7 @@
+
+BeyondCompare 2.0.8
+-------------------
+
+Fixes
+
+- Fix reported pathing issue in Windows
