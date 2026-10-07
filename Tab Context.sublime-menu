@@ -1,0 +1,8 @@
+[
+    { "caption": "-", "id": "beyond-compare-tab" },
+    {
+        "command": "beyond_compare_tab",
+        "caption": "BeyondCompare: Compare with Active Tab",
+        "args": { "group": -1, "index": -1 }
+    }
+]

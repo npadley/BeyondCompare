@@ -1,0 +1,7 @@
+
+BeyondCompare 2.1.0
+-------------------
+
+Features
+
+- Added the ability to right-click on tabs and open in BeyondCompare

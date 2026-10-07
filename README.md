@@ -24,6 +24,12 @@ Use the keyboard shortcut [Ctrl-Opt-D] to launch BeyondCompare.
 
 Use the menu item under Tools or the menu item under the right-click context menu.
 
+To compare a specific tab with the currently active tab, right-click the other
+tab and choose **BeyondCompare: Compare with Active Tab**. The active file is
+shown on the left and the right-clicked file on the right. Both tabs must have
+saved file paths and refer to different files. Save any edits first: Beyond
+Compare reads the files on disk, not unsaved changes in Sublime Text.
+
 Installation Instructions for OS X
 ==================================
 
@@ -37,3 +43,9 @@ Installation Instructions for Windows and Linux
 ===============================================
 
 All that is required is for you to have a working copy of the program installed. You can find those instructions at: http://www.scootersoftware.com/download.php
+
+On Windows, the plugin automatically checks for Beyond Compare 5, then Beyond
+Compare 4, in both Program Files locations. An existing valid
+`beyond_compare_path` setting takes precedence. For a custom installation, set
+the executable path in the user settings without adding literal double quotes
+around the path.
